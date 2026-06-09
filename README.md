@@ -69,8 +69,8 @@ Excluded:
 ## Status
 
 The foundation is working: host, VM, Home Assistant, Zigbee bridge, dashboards,
-private admin access, public Home Assistant access, and local storage sharing
-are in place.
+private admin access, public Home Assistant access, local storage sharing, and a
+private availability-monitoring service are in place.
 
 The private operational documentation remains the source of truth. This public
 repo is only a safe overview.

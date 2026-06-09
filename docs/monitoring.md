@@ -9,6 +9,9 @@ Home Assistant already receives host health cues from host-side helpers. That is
 useful for daily visibility, but it should not be the only monitoring layer
 because Home Assistant can be part of the outage.
 
+A private Uptime Kuma service has been added as the first availability-monitoring
+layer. It should remain private and should not be exposed to the public internet.
+
 ## Recommended Stack
 
 1. Uptime Kuma for availability checks.
@@ -63,4 +66,3 @@ Home Assistant should show a compact health summary:
 3. Add host metrics if the user needs more detail.
 4. Add backup age and external-drive checks.
 5. Add notification rules only after false positives are controlled.
-
