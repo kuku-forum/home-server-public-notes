@@ -1,0 +1,17 @@
+.DS_Store
+*.log
+*.tmp
+*.bak
+*.tar
+*.zip
+*.json
+*.yaml
+*.yml
+*.plist
+.env
+.env.*
+secrets/
+private/
+backups/
+exports/
+artifacts/
