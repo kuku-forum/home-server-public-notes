@@ -11,6 +11,8 @@ because Home Assistant can be part of the outage.
 
 A private Uptime Kuma service has been added as the first availability-monitoring
 layer. It should remain private and should not be exposed to the public internet.
+A lightweight private host-metrics service has also been added for local
+inspection of CPU, memory, disk, network, and process pressure.
 
 ## Recommended Stack
 
